@@ -8,7 +8,7 @@ import { PostsService } from './service/posts.service';
 })
 export class AppComponent implements OnInit {
 
-  posts: string = 'No weather';
+  posts: string;
   errorMessage: string;
 
   constructor(private postsService: PostsService) { }
